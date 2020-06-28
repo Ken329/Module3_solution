@@ -1,0 +1,96 @@
+ body{
+    background-color: #040404;
+    color: #1AE00F;
+    font-size: 16px;
+}
+#header-nav{
+    background-color: #0F47E0;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-default .navbar-brand{
+	color: #1AE00F;
+    font-size: 2em;
+}
+.navbar-default .navbar-collapse{
+    border: none;
+}
+#nav-list a{
+	border: 1px solid black; 
+    text-align: center;
+}
+#nav-list a:hover{
+    background: #1AE00F;
+}
+#nav-list a{
+	color: black;
+}
+.glyphicon{
+    margin-right: 5px;  
+    color: black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 2px solid #FAFAFB;
+    background: black;
+}
+.section-background-color{
+    background-color: blue;
+} 
+#chicken{
+    margin-right: 10px;
+}
+#beef{
+    margin-right: 10px;
+}
+/*** Large devices only ***/
+@media (min-width: 1200px) {
+    .col-lg-4{
+     	width: 32.33333%;
+     	margin-left: 5px;
+    }
+}
+/*** Medium devices only ***/
+@media (min-width: 767px) and (max-width: 1199px) {
+    #chicken{
+      	margin-right: 4%;
+    }
+    #beef{
+        margin-right: 0px;
+    }
+    #sushi{
+        margin-top: 20px;
+    }
+    .col-md-6{
+        width: 48%;
+    }
+}
+/*** Small devices only ***/
+@media (max-width: 767px) {
+    h1{
+        margin-left: 25px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .row{
+    	margin-left: 15px;
+    	margin-right: 15px;
+    }
+    .top{
+    	margin-bottom: 15px;
+    }
+    .navbar-default .navbar-collapse{
+        background-color: blue;
+    }
+    #chicken{
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    }
+    #sushi{
+    	margin-top: 20px;
+    }
+    #beef{
+        margin: 10px 0;
+    .internal-link{
+        margin-top: 30px;
+    }
+}
